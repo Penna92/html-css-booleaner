@@ -1,13 +1,61 @@
-header {
-    height: 150px;
-    background-color: #0099ff;    
-    background-image: url(../img/pattern.png);        
+*{
+    padding: 0;
+    margin: 0;   
 }
-
+header {
+    height: 170px;
+    background-color: #0099ff;    
+    background-image: url(../img/pattern.png);     
+}
+main {
+    margin: 5px;
+}
 #logo {
     width: 250px;
     background-repeat: no-repeat;
-    margin-top: 70px;
+    margin-top: 80px;
     margin-left: 10px;    
 }
+h1 {
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.title span {
+    color: grey;
+    font-size: 25px;
+}
+.title span a {
+    text-decoration: none;
+    color: #0099ff;
+}
+.images img {
+    width: 48%;
+    height: 500px;
+}
+div {
+    margin-bottom: 30px;
+}
+.yellow {
+    background-color: yellow;
+}
+.list {
+    margin-left: 15px;
+}
+th, tr, td{
+    width: 33%;
+    text-align: left;
+    margin: 0;
+}
+table {
+    border-collapse: collapse;
+  }
+.row1 {
+    background-color: #0099ff;
+}
+.row2, .row4 {
+    background-color:lightblue;
+}
+
+
 
